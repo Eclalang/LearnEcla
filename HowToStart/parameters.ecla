@@ -1,0 +1,8 @@
+import console;
+
+function hello(str1 : string, str2 : string) {
+    console.print(str1, str2);
+}
+
+hello("Hello", " World");
+

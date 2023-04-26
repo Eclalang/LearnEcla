@@ -1,0 +1,4 @@
+var str string;
+str = "hello";
+
+var str string = "hello";

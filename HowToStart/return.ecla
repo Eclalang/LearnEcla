@@ -1,0 +1,13 @@
+import console;
+
+function add(a : int, b : int) (int) {
+    return a + b;
+}
+
+function main() {
+    var number1 int = 1;
+    var number2 int = 2;
+    console.print(add(number1, number2));
+}
+main();
+
