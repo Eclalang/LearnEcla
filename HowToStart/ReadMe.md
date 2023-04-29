@@ -45,7 +45,7 @@ You can also define the variable with its value directly with : `var varName typ
 In our example, we will assign a text to our variable `str` and a number to our variable `nb`.  
 ![img.png](img/varAssign.png)  
 If you try to run this program : `Ecla .\HowToStart\varAssign.ecla`.  
-You will have the same result as previously because our variables are still not printed.
+You will have the same result as previously because our variable is still not printed.
 
 ## 5. Print
 Until now, you learned how to create a variable and assign a value to it. But you can't see the progression of your program.  
