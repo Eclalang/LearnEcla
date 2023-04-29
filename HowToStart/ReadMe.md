@@ -118,6 +118,23 @@ We create a function add which takes 2 int parameters and return the addition of
 Then in another function main, you define 2 variables, call the function add with this 2 variables and print the result.  
 ![img.png](img/return.png) ![img.png](img/returnresult.png)
 
-## 9. Conditions
+## 9. Return multiple values
+
+### Return multiple values from a function
+You learned how to return a value from a function but what if you want to return multiple values ?  
+If you understood the previous section, it will be easy for you.  
+To return multiple values from a function, you will have to define the types returned between the parenthesis : `funcName(varName : vartype) (int, string) {}`.  
+Then you will have to return the values separated by a comma like this : `return value1, value2;`.
+
+### Example
+We will reuse our previous example but instead of returning an int, we will return 2 int.  
+One will be the addition of the 2 parameters and the other one will be the subtraction of the 2 parameters.  
+![img.png](img/multipleReturn.png) ![img.png](img/multipleReturnResult.png)  
+As you can see, I added text to the print to know which value is which.  
+In the function print, you can add as many values as you want separated by a plus sign and if you add `"\n"` at the end, it will add a new line after printing the values.  
+Which could be useful to have a better display.  
+_You can also use the function `println` in the console library to print a new line at the end of your print directly._
+
+## 10. Conditions
 
 ### If

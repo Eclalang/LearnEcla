@@ -1,0 +1,19 @@
+import console;
+
+function add(a : int, b : int) (int, int) {
+    resultAdd = a + b;
+    resultSub = a - b;
+    return resultAdd, resultSub;
+}
+
+function main() {
+    var number1 int = 1;
+    var number2 int = 2;
+    var resultAdd int;
+    var resultSub int;
+    resultAdd, resultSub = add(number1, number2);
+    console.print("Addition: " + resultAdd + "\n");
+    console.print("Subtraction: " + resultSub);
+}
+main();
+
