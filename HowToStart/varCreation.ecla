@@ -1,0 +1,6 @@
+var str string;
+var num int;
+var number float;
+var boolean bool;
+var arrInt []int;
+var arrStr []string;
