@@ -90,6 +90,7 @@ We will reuse our previous code but put in a function named `hello` and called i
 ![img.png](img/hello.png)  
 It will give you the same result as before.  
 If you call your function multiple times, it will print the same value multiple times. Here I called it 2 times :  
+![img.png](img/DoubleHello.png)
 ![img.png](img/MultipleHello.png)  
 And I ended up with 2 times the same value printed.
 
