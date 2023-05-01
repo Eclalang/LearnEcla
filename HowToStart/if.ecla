@@ -1,0 +1,10 @@
+import console;
+
+function main(number1 : int, number2 : int) {
+  if (number1 == number2) {
+    console.print("The numbers are equal");
+  }
+}
+
+main(2, 3);
+

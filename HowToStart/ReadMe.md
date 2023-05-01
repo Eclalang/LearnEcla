@@ -137,4 +137,31 @@ _You can also use the function `println` in the console library to print a new l
 
 ## 10. Conditions
 
-### If
+### Simple Condition
+Let's say you want to print a text if a condition is true.  
+To do so, you will use the keyword `if` followed by the condition between parenthesis and braces.  
+If the condition is true, the code between the braces will be executed.  
+If the condition is false, the code between the braces will be ignored.
+
+### Example Simple Condition
+In our example, we will print a text if two variables are equal.  
+First case if the variables are equal :  
+![img.png](img/ifPrintWorks.png)
+![img.png](img/ifPrintWorksResult.png)  
+Second case if the variables are not equal :  
+![img.png](img/ifPrintNotWorks.png)
+![img.png](img/ifPrintNotWorksResult.png)
+
+### Condition with else
+Now let's say you want to print a text if a condition is true and another text if the condition is false.  
+Otherwise you will have to write 2 if with the opposite condition.  
+To avoid this, you can use the keyword `else` after your first if.
+
+### Example Condition with else
+In our example, we will print a text if two variables are equal and another text if the variables are not equal.  
+First case if the variables are equal :  
+![img.png](img/ifElse.png)
+![img.png](img/ifElseResult.png)  
+Second case if the variables are not equal :  
+![img.png](img/ifElseNot.png)
+![img.png](img/ifElseNotResult.png)

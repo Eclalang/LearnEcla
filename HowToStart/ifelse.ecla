@@ -1,0 +1,12 @@
+import console;
+
+function main(number1 : int, number2 : int) {
+  if (number1 == number2) {
+    console.print("The numbers are equal");
+  } else {
+    console.print("The numbers are not equal");
+  }
+}
+
+main(2, 3);
+
