@@ -187,4 +187,7 @@ Third case if the second variable is greater than the first one :
 In this example, at least one of the 3 cases will be always true, so it won't execute the else part.  
 So instead of using 2 `else if` statement, you can use an `else` statement to replace the last `else if` statement :  
 ![img.png](img/elseifModified.png)
-![img.png](img/elseifModifiedResult.png)
+![img.png](img/elseifModifiedResult.png)  
+_As you saw earlier, you can use as many else if statement as you want._
+
+## 11. Loops
