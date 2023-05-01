@@ -1,0 +1,14 @@
+import console;
+
+function main(number1 : int, number2 : int) {
+  if (number1 == number2) {
+    console.print("The numbers are equal");
+  } else if (number1 > number2) {
+    console.print("Number 1 is greater than number 2");
+  } else {
+    console.print("Number 2 is greater than number 1");
+  }
+}
+
+main(1, 7);
+

@@ -165,3 +165,26 @@ First case if the variables are equal :
 Second case if the variables are not equal :  
 ![img.png](img/ifElseNot.png)
 ![img.png](img/ifElseNotResult.png)
+
+### Condition with else if
+The problem with only if and else is that you can only have 2 cases.
+So if you have more than 2 cases, you will have to write multiple if and else.  
+To avoid this, you can use the keyword `else if` after your first if.
+
+### Example Condition with else if
+In our example, we will print a text if two variables are equal, another text if the first variable is greater than the second one and another text if the second variable is greater than the first one.  
+Our function will take 2 int parameters and return a string like this :  
+![img.png](img/elseifFunction.png)  
+First case if the variables are equal :  
+![img.png](img/elseifCase1.png)
+![img.png](img/elseifCase1Result.png)  
+Second case if the first variable is greater than the second one :  
+![img.png](img/elseifCase2.png)
+![img.png](img/elseifCase2Result.png)  
+Third case if the second variable is greater than the first one :  
+![img.png](img/elseifCase3.png)
+![img.png](img/elseifCase3Result.png)  
+In this example, at least one of the 3 cases will be always true, so it won't execute the else part.  
+So instead of using 2 `else if` statement, you can use an `else` statement to replace the last `else if` statement :  
+![img.png](img/elseifModified.png)
+![img.png](img/elseifModifiedResult.png)
