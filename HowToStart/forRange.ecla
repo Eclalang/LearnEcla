@@ -1,0 +1,11 @@
+import console;
+
+function main() {
+    var lst []int = [1, 2, 3, 4, 5];
+    for (key, value range lst) {
+        console.print("Key : " + key + " Value : " + value + "\n");
+    }
+}
+
+main();
+

@@ -1,0 +1,12 @@
+import console;
+
+function main() {
+    var number int = 0;
+    while (number < 3) {
+        console.println("Number : " + number);
+        number = number + 1;
+    }
+}
+
+main();
+

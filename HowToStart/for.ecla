@@ -1,0 +1,10 @@
+import console;
+
+function main() {
+    for (var i int = 0, i < 3, i++) {
+        console.println("Hello World!");
+    }
+}
+
+main();
+

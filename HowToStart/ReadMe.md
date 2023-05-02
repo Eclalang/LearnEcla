@@ -191,3 +191,39 @@ So instead of using 2 `else if` statement, you can use an `else` statement to re
 _As you saw earlier, you can use as many else if statement as you want._
 
 ## 11. Loops
+Let's introduce the loops.  
+Loops are used to execute a code multiple times.  
+There are 3 types of loops : `for`, `for range` and `while`.
+
+### For loop
+The for loop is used to execute a code a specific number of times.  
+To use a for loop, you will have to define a variable, a condition and an incrementation.  
+The variable will be used to know how many times the code will be executed.  
+To define a for loop, you will use the keyword `for` followed by the variable, the condition and the incrementation between parenthesis and braces.
+
+### Example For loop
+In our example, we will print a text 3 times :  
+![img.png](img/for.png)
+![img.png](img/forResult.png)
+
+### For range loop
+The for range loop is used to execute a code for each element of a list.  
+To use a for range loop, you will have to define a list.
+To define a for range loop, you will use the keyword `for` followed by two variables which will be used as key and value, then the keyword `range` and the list between parenthesis and the code to execute between braces.
+
+### Example For range loop
+In our example, we will print each key and value from a list :  
+![img.png](img/forRange.png)
+![img.png](img/forRangeResult.png)  
+_In a list, the first value is always at the index 0._
+
+### While loop
+The while loop is used to execute a code while a condition is true.  
+To use a while loop, you will have to define a condition.  
+To define a while loop, you will use the keyword `while` followed by the condition between parenthesis and braces.
+
+### Example While loop
+In our example, we will print a text while a variable is lesser than 3 :  
+![img.png](img/while.png)
+![img.png](img/whileResult.png)  
+_The variable is incremented in the code to avoid an infinite loop._
