@@ -208,7 +208,7 @@ In our example, we will print a text 3 times :
 
 ### For range loop
 The for range loop is used to execute a code for each element of a list.  
-To use a for range loop, you will have to define a list.
+To use a for range loop, you will have to define a list.  
 To define a for range loop, you will use the keyword `for` followed by two variables which will be used as key and value, then the keyword `range` and the list between parenthesis and the code to execute between braces.
 
 ### Example For range loop
