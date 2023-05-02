@@ -139,7 +139,7 @@ _You can also use the function `println` in the console library to print a new l
 
 ### Simple Condition
 Let's say you want to print a text if a condition is true.  
-To do so, you will use the keyword `if` followed by the condition between parenthesis and braces.  
+To do so, you will use the keyword `if` followed by the condition between parenthesis and braces : `if (condition) {code}`.  
 If the condition is true, the code between the braces will be executed.  
 If the condition is false, the code between the braces will be ignored.
 
@@ -199,7 +199,7 @@ There are 3 types of loops : `for`, `for range` and `while`.
 The for loop is used to execute a code a specific number of times.  
 To use a for loop, you will have to define a variable, a condition and an incrementation.  
 The variable will be used to know how many times the code will be executed.  
-To define a for loop, you will use the keyword `for` followed by the variable, the condition and the incrementation between parenthesis and braces.
+To define a for loop, you will use the keyword `for` followed by the variable, the condition and the incrementation between parenthesis and braces : `for (var, condition, incrementation) {code}`.
 
 ### Example For loop
 In our example, we will print a text 3 times :  
@@ -209,7 +209,7 @@ In our example, we will print a text 3 times :
 ### For range loop
 The for range loop is used to execute a code for each element of a list.  
 To use a for range loop, you will have to define a list.  
-To define a for range loop, you will use the keyword `for` followed by two variables which will be used as key and value variables, then the keyword `range` and the list between parenthesis and the code to execute between braces.
+To define a for range loop, you will use the keyword `for` followed by two variables which will be used as key and value variables, then the keyword `range` and the list between parenthesis and the code to execute between braces : `for (key, value range list) {code}`.
 
 ### Example For range loop
 In our example, we will print each key and value from a list :  
@@ -220,7 +220,7 @@ _In a list, the first value is always at the index 0._
 ### While loop
 The while loop is used to execute a code while a condition is true.  
 To use a while loop, you will have to define a condition.  
-To define a while loop, you will use the keyword `while` followed by the condition between parenthesis and braces.
+To define a while loop, you will use the keyword `while` followed by the condition between parenthesis and braces : `while (condition) {code}`.
 
 ### Example While loop
 In our example, we will print a text while a variable is lesser than 3 :  
