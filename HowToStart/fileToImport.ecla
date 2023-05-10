@@ -1,0 +1,4 @@
+function Power2(number1 : int) (int) {
+    return number1 * number1;
+}
+

@@ -104,7 +104,23 @@ For this example we will add 2 `string` parameters to our function hello then pr
 You can see bellow the program and the result expected :  
 ![img.png](img/parameters.png) ![img.png](img/parametersresult.png)
 
-## 8. Return a value
+## 8. Dynamic import
+
+### What is a dynamic import ?
+A dynamic import is a way to import functions from a .ecla file.  
+It is useful when you want to use a function from another file without having to copy it in your current file.  
+
+### How to use it ?
+To use a dynamic import, you will have to use the keyword `import` followed by the path of the file you want to import,
+like this : `import "path/to/file.ecla";`.
+
+### Example
+We will create a function Power2 in a file named "fileToImport.ecla" and import it in our main file.  
+![img.png](img/fileToImport.png)  
+![img.png](img/dynamicImport.png)
+![img.png](img/dynamicImportResult.png)
+
+## 9. Return a value
 
 ### Return a value from a function
 Until now our function was used to print a string but what about creating a function to add a number to another one ?  
@@ -118,7 +134,7 @@ We create a function add which takes 2 int parameters and return the addition of
 Then in another function main, you define 2 variables, call the function add with this 2 variables and print the result.  
 ![img.png](img/return.png) ![img.png](img/returnresult.png)
 
-## 9. Return multiple values
+## 10. Return multiple values
 
 ### Return multiple values from a function
 You learned how to return a value from a function but what if you want to return multiple values ?  
@@ -135,7 +151,7 @@ In the function print, you can add as many values as you want separated by a plu
 Which could be useful to have a better display.  
 _You can also use the function `println` in the console library to print a new line at the end of your print directly._
 
-## 10. Conditions
+## 11. Conditions
 
 ### Simple Condition
 Let's say you want to print a text if a condition is true.  
@@ -190,7 +206,7 @@ So instead of using 2 `else if` statement, you can use an `else` statement to re
 ![img.png](img/elseifModifiedResult.png)  
 _As you saw earlier, you can use as many else if statement as you want._
 
-## 11. Loops
+## 12. Loops
 Let's introduce the loops.  
 Loops are used to execute a code multiple times.  
 There are 3 types of loops : `for`, `for range` and `while`.

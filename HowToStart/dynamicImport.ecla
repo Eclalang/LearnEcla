@@ -1,0 +1,11 @@
+import "console";
+import "fileToImport.ecla";
+
+function main() {
+    var num1 int = 4;
+    var result int = fileToImport.Power2(num1);
+    console.print(result);
+}
+
+main();
+
