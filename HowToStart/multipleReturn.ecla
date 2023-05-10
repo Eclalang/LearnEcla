@@ -1,4 +1,4 @@
-import console;
+import "console";
 
 function add(a : int, b : int) (int, int) {
     resultAdd = a + b;

@@ -1,4 +1,4 @@
-import console;
+import "console";
 
 function main() {
     var number int = 0;
