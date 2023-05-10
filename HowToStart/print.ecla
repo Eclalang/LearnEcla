@@ -1,5 +1,6 @@
-import console;
+import "console";
 
 var str string = "Hello, World!";
 
 console.print(str);
+

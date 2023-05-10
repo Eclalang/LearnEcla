@@ -54,7 +54,7 @@ To print in Ecla you will have to use one of our standard library, console.
 
 ### Import a library
 To start, you will have to import the library by using the keyword `import` followed by the library name.  
-So in our case to import the library console, you will write : `import console;`.
+So in our case to import the library console, you will write : `import "console";`.
 
 ### Use a library
 Now that our library is imported in our code, we will be able to use it.  
