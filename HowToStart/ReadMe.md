@@ -111,8 +111,9 @@ A dynamic import is a way to import functions from a .ecla file.
 It is useful when you want to use a function from another file without having to copy it in your current file.  
 
 ### How to use it ?
-To use a dynamic import, you will have to use the keyword `import` followed by the path of the file you want to import,
-like this : `import "path/to/file.ecla";`.
+To use a dynamic import, you will have to use the keyword `import` followed by the path of the file you want to import, like this :  
+`import "path/to/file.ecla";`.  
+And to use your function you will have to use the following syntax : `libraryName.functionName();`.
 
 ### Example
 We will create a function Power2 in a file named "fileToImport.ecla" and import it in our main file.  
