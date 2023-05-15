@@ -136,6 +136,7 @@ Secondly, at the end of your function you put your return followed by the value 
 ### Example
 We create a function add which takes 2 int parameters and return the addition of both (in this case an int).  
 Then in another function main, you define 2 variables, call the function add with this 2 variables and print the result.  
+You can try to run this program : ```Ecla .\HowToStart\return.ecla```  
 ![img.png](img/return.png) ![img.png](img/returnresult.png)
 
 ## 10. Return multiple values
