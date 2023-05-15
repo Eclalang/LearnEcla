@@ -88,6 +88,7 @@ So to call your function, you simply write the name of your function `functionNa
 ### Example
 We will reuse our previous code but put in a function named `hello` and called it like this :  
 ![img.png](img/hello.png)  
+If you try to run this program : ```Ecla .\HowToStart\hello.ecla```  
 It will give you the same result as before.  
 If you call your function multiple times, it will print the same value multiple times. Here I called it 2 times :  
 ![img.png](img/DoubleHello.png)
