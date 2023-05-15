@@ -152,6 +152,7 @@ We will reuse our previous example but instead of returning an int, we will retu
 One will be the addition of the 2 parameters and the other one will be the subtraction of the 2 parameters.  
 ![img.png](img/multipleReturn.png) ![img.png](img/multipleReturnResult.png)  
 As you can see, I added text to the print to know which value is which.  
+You can try to run this program : ```Ecla .\HowToStart\multipleReturn.ecla``` if you want to see the result.  
 In the function print, you can add as many values as you want separated by a plus sign and if you add `"\n"` at the end, it will add a new line after printing the values.  
 Which could be useful to have a better display.  
 _You can also use the function `println` in the console library to print a new line at the end of your print directly._
