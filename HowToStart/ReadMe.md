@@ -118,7 +118,8 @@ To use a dynamic import, you will have to use the keyword `import` followed by t
 And to use your function you will have to use the following syntax : `libraryName.functionName();`.
 
 ### Example
-We will create a function Power2 in a file named "fileToImport.ecla" and import it in our main file.  
+We will create a function Power2 in a file named `fileToImport.ecla` and import it in our main file.  
+You can try to run this program : ```Ecla .\HowToStart\dynamicImport.ecla```  
 ![img.png](img/fileToImport.png)  
 ![img.png](img/dynamicImport.png)
 ![img.png](img/dynamicImportResult.png)
