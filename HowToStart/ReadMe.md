@@ -101,7 +101,7 @@ Instead you can use parameters for your function to print whichever value you wa
 To make your function takes one or more parameters, you will define it between the parenthesis `functionName(varName : varType, var2Name : var2Type) {}`.
 
 ### Example
-For this example we will add 2 `string` parameters to our function hello then print the 2 values.
+For this example we will add 2 `string` parameters to our function hello then print the 2 values.  
 You can see bellow the program and the result expected :  
 ![img.png](img/parameters.png) ![img.png](img/parametersresult.png)  
 You can try to run this program yourself : ```Ecla .\HowToStart\parameters.ecla```.
