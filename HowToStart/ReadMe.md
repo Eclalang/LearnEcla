@@ -63,7 +63,7 @@ To use a function from a library, you will use the following syntax : `libraryNa
 ### Example
 Here we want to print our variable `str`. To do so we will use the function `print` from the library console.  
 ![img.png](img/print.png)  
-If you execute the program `print.ecla`, it will print the value of the variable str in your terminal like this :  
+If you try to run this program : `Ecla .\HowToStart\print.ecla`, it will print the value of the variable str in your terminal like this :  
 ![img.png](img/printresult.png)  
 Well done you did your first Hello, World! in Ecla!  
 _Here we printed the value of a variable, but you can also print a value directly._
