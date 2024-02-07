@@ -45,7 +45,7 @@ Here is a list of all of them : `bool, float, int, char , string, list, map`
 
 `map: store set of variable, indexable with an other variable`
 
-### list and array
+### list and map
 
 Like presented above, some variable are set of variable.
 `list` and `map` are one of those.
