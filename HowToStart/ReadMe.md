@@ -4,18 +4,21 @@
 Go on this link: https://github.com/Eclalang/Ecla/releases
 and pick your desired Ecla version.
 
-You should have an 'ecla.exe'.
+You should have an `ecla.exe`.
 Add this file to your environement variable of your computer.
 
 Ecla is now usable on your device.
 ## 1. Create a new project
 Create a new file with the extension `.ecla`.
 
+our file will be named `file.ecla` for this learning class.
 ## 2. Run your program
 To run your program which is empty for the moment, use the following command `Ecla filename`.  
 In our example, you will do : `Ecla .\HowToStart\empty.ecla` and have the following result :  
 ![img.png](img/empty.png)
 
+our commmand line:
+`Ecla run file.ecla`
 ## 3. Create a variable
 
 ### What is a type ?
