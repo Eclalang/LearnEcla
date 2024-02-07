@@ -216,9 +216,36 @@ _You can also use the function `println` in the console library to print a new l
 
 ### Simple Condition
 Let's say you want to print a text if a condition is true.  
-To do so, you will use the keyword `if` followed by the condition between parenthesis and braces : `if (condition) {code}`.  
+To do so, you will use the keyword `if` followed by the condition between parenthesis and braces : `if condition {code}`.  
 If the condition is true, the code between the braces will be executed.  
 If the condition is false, the code between the braces will be ignored.
+
+### Boolean opperator
+for any condition using an opperation , all the component of the opperation must have the same type.
+Because condition must use a boolean value to opperate, we can list some boolean opperator that can be used in a condition:
+
+`a == b` if the variable a is equal to b, this exception will become `true`, and `false` otherwise.
+
+`a > b` if the variable a is greater than b, this exception will become `true`, and `false` otherwise.
+work only for int and float.
+
+`a < b` if the variable a is lesser than b, this exception will become `true`, and `false` otherwise.
+work only for int and float.
+
+`a >= b` if the variable a is greater or equal to b, this exception will become `true`, and `false` otherwise.
+work only for int and float.
+
+`a <= b` if the variable a is lesser or equal to b, this exception will become `true`, and `false` otherwise.
+work only for int and float.
+
+`a && b` if the variables a and b are true, this exception will become `true`, and `false` otherwise.
+work only for boolean.
+
+`a || b` if the variable a or b are true, this exception will become `true`, and `false` otherwise.
+work only for boolean.
+
+`a ^^ b` if the variable a is equal to b, this exception will become `true`, and `false` otherwise.
+work only for boolean.
 
 ### Example Simple Condition
 In our example, we will print a text if two variables are equal.  
