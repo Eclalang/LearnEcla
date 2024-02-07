@@ -79,9 +79,11 @@ To create it you will always use the same syntax : `var varName type;`.
 In our example, we will create a `string` variable named `str` and some others variables with different types.  
 ![img.png](img/varCreationError.png)  
 If you try to run this program, you will have an error because you didn't use the right syntax.
-Something important to know, like in others languages (C, Java or JavaScript) you need to finish your line by `;`.  
-The purpose of this is to announce the end of line.  
-To fix it, you will have to add a `;` at the end of your first line and specify that `num` is a variable like this :  
+
+Like in others languages (C, Java or JavaScript) you need to finish your line by `;`.  
+A line is known as ended by Ecla when an `;` apear.
+
+You will have to add a `;` at the end of your first line and specify that `num` is a variable like this :  
 ![img.png](img/varCreation.png)  
 If you try to run this program : `Ecla .\HowToStart\varCreation.ecla`.  
 You will have the same result as previously because our variables don't have a value assigned.
