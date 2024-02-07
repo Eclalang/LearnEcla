@@ -118,7 +118,8 @@ To use a dynamic import, you will have to use the keyword `import` followed by t
 And to use your function you will have to use the following syntax : `libraryName.functionName();`.
 
 ### Example
-We will create a function Power2 in a file named "fileToImport.ecla" and import it in our main file.  
+We will create a function Power2 in a file named `fileToImport.ecla` and import it in our main file.  
+You can try to run this program : ```Ecla .\HowToStart\dynamicImport.ecla```  
 ![img.png](img/fileToImport.png)  
 ![img.png](img/dynamicImport.png)
 ![img.png](img/dynamicImportResult.png)
@@ -135,6 +136,7 @@ Secondly, at the end of your function you put your return followed by the value 
 ### Example
 We create a function add which takes 2 int parameters and return the addition of both (in this case an int).  
 Then in another function main, you define 2 variables, call the function add with this 2 variables and print the result.  
+You can try to run this program : ```Ecla .\HowToStart\return.ecla```  
 ![img.png](img/return.png) ![img.png](img/returnresult.png)
 
 ## 10. Return multiple values
@@ -150,6 +152,7 @@ We will reuse our previous example but instead of returning an int, we will retu
 One will be the addition of the 2 parameters and the other one will be the subtraction of the 2 parameters.  
 ![img.png](img/multipleReturn.png) ![img.png](img/multipleReturnResult.png)  
 As you can see, I added text to the print to know which value is which.  
+You can try to run this program : ```Ecla .\HowToStart\multipleReturn.ecla``` if you want to see the result.  
 In the function print, you can add as many values as you want separated by a plus sign and if you add `"\n"` at the end, it will add a new line after printing the values.  
 Which could be useful to have a better display.  
 _You can also use the function `println` in the console library to print a new line at the end of your print directly._
