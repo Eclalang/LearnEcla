@@ -43,7 +43,7 @@ Here is a list of all of them : `bool, float, int, char , string, list, map`
 
 `list: store set of variable`
 
-`string: store set of variable, indexable with an othe variable`
+`string: store set of variable, indexable with an other variable`
 
 ### Creation
 Now that you know the types, we will create our first variable.  
