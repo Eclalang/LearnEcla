@@ -29,7 +29,21 @@ There is a multitude of types, you will learn them in the next section.
 
 ### Different types
 First you need to know that several types exist in Ecla for your variables.  
-Here is a list of all of them : `bool, float, int, string, list, map`
+Here is a list of all of them : `bool, float, int, char , string, list, map`
+
+`bool: store a boolean value (true | false)`
+
+`float: store a decimal number (11.0 | 0.43 | -1.3 | ...)`
+
+`int: store an integer (11 | 0 | -2 | ...)`
+
+`char: store an alphabetic letter or symbol (character) ('a' | '1' | ')' | ...)`
+
+`string: store set of character ("aa" | "12" | "UwU" | ...)`
+
+`list: store set of variable`
+
+`string: store set of variable, annexable with an othe variable`
 
 ### Creation
 Now that you know the types, we will create our first variable.  
