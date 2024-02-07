@@ -18,12 +18,13 @@ In our example, you will do : `Ecla .\HowToStart\empty.ecla` and have the follow
 ![img.png](img/empty.png)
 
 our commmand line:
+
 `Ecla run file.ecla`
 ## 3. Create a variable
 
 ### What is a type ?
 A type is a way to define the nature of your variable.
-For example, if you want to store a number, you will use the type `int` or `float` depending on the precision you want.  
+For example, if you want to store a number, you will use the type `int` or `float` depending on the usage you want.  
 There is a multitude of types, you will learn them in the next section.
 
 ### Different types
