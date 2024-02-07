@@ -1,5 +1,13 @@
 # How to start
 
+## 0. Get ready to use ecla
+Go on this link: https://github.com/Eclalang/Ecla/releases
+and pick your desired Ecla version.
+
+You should have an 'ecla.exe'.
+Add this file to your environement variable of your computer.
+
+Ecla is now usable on your device.
 ## 1. Create a new project
 Create a new file with the extension `.ecla`.
 
