@@ -54,6 +54,7 @@ Because they are set of variable , they can store more than one variable at any 
 
 Those values are indexed in a set like structure , where each value have its index or key, and are store next to each other, like each car in a train. (car0-car1-car2-...)
 
+#### list
 list are indexed with an int, were each int folows each other, and start at 0.
 
 to acces the 5th value of a list, it should be like below:
@@ -62,6 +63,7 @@ to acces the 5th value of a list, it should be like below:
 
 because we start at 0.
 
+#### map
 map are different in a way that there index value is called 'key' and can be any type of variable.
 each key must and are unique.
 
