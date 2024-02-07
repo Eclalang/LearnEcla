@@ -11,7 +11,7 @@ Ecla is now usable on your device.
 ## 1. Create a new project
 Create a new file with the extension `.ecla`.
 
-our file will be named `file.ecla` for this learning class.
+our file will be named `file.ecla` for the next section.
 ## 2. Run your program
 To run your program which is empty for the moment, use the following command `Ecla filename`.  
 In our example, you will do : `Ecla .\HowToStart\empty.ecla` and have the following result :  
