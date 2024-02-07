@@ -48,6 +48,26 @@ Here is a list of all of them : `bool, float, int, char , string, list, map`
 ### list and array
 
 Like presented above, some variable are set of variable.
+`list` and `map` are one of those.
+
+Because they are set of variable , they can store more than one variable at any time.
+
+Those values are indexed in a set like structure , where each value have its index or key, and are store next to each other, like each car in a train. (car0-car1-car2-...)
+
+list are indexed with an int, were each int folows each other, and start at 0.
+
+to acces the 5th value of a list, it should be like below:
+
+`myList[4]`,
+
+because we start at 0.
+
+map are different in a way that there index value is called 'key' and can be any type of variable.
+each key must and are unique.
+
+to acces the a value in map, it should be like below:
+
+`myMap[Key]`, where `key` can be replace by the variable that fit the desired key of the value
 
 ### Creation
 Now that you know the types, we will create our first variable.  
