@@ -160,7 +160,22 @@ You can see bellow the program and the result expected :
 ![img.png](img/parameters.png) ![img.png](img/parametersresult.png)  
 You can try to run this program yourself : ```Ecla .\HowToStart\parameters.ecla```.
 
-## 8. Dynamic import
+## 8. Return a value
+
+### Return a value from a function
+Until now our function was used to print a string but what about creating a function to add a number to another one ?  
+So instead of printing, you will return your value using the keyword `return`.  
+At first, you need to define the type you want to return from your function after your parameters' parenthesis,
+you need to open new parenthesis where your precise the type returned like this : `funcName(var : type) (int) {}`.  
+Secondly, at the end of your function you put your return followed by the value wanted like this : `return value;`.
+
+### Example
+We create a function add which takes 2 int parameters and return the addition of both (in this case an int).  
+Then in another function main, you define 2 variables, call the function add with this 2 variables and print the result.  
+You can try to run this program : ```Ecla .\HowToStart\return.ecla```  
+![img.png](img/return.png) ![img.png](img/returnresult.png)
+
+## 9. Dynamic import
 
 ### What is a dynamic import ?
 A dynamic import is a way to import functions from a .ecla file.  
@@ -178,20 +193,6 @@ You can try to run this program : ```Ecla .\HowToStart\dynamicImport.ecla```
 ![img.png](img/dynamicImport.png)
 ![img.png](img/dynamicImportResult.png)
 
-## 9. Return a value
-
-### Return a value from a function
-Until now our function was used to print a string but what about creating a function to add a number to another one ?  
-So instead of printing, you will return your value using the keyword `return`.  
-At first, you need to define the type you want to return from your function after your parameters' parenthesis,
-you need to open new parenthesis where your precise the type returned like this : `funcName(var : type) (int) {}`.  
-Secondly, at the end of your function you put your return followed by the value wanted like this : `return value;`.
-
-### Example
-We create a function add which takes 2 int parameters and return the addition of both (in this case an int).  
-Then in another function main, you define 2 variables, call the function add with this 2 variables and print the result.  
-You can try to run this program : ```Ecla .\HowToStart\return.ecla```  
-![img.png](img/return.png) ![img.png](img/returnresult.png)
 
 ## 10. Return multiple values
 
