@@ -67,7 +67,7 @@ because we start at 0.
 map are different in a way that there index value is called 'key' and can be any type of variable.
 each key must and are unique.
 
-to acces the a value in a map, it should be like below:
+to acces a value in a map, it should be like below:
 
 `myMap[Key]`, where `key` can be replace by the variable that fit the desired key of the value
 
